@@ -17,6 +17,10 @@ def main():
                         print(num1 * num2)
                     case '-':
                         print(num1 - num2)
+            else:
+                print('None')
+        else:
+            print('None')
     elif x == 1:
         print('throws Exception //т.к. строка не является математической операцией')
     elif x == 4:
